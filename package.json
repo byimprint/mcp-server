@@ -1,6 +1,7 @@
 {
   "name": "@byimprint/mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "mcpName": "io.github.byimprint/intelligence",
   "description": "Open-source MCP client for byImprint creator-audience intelligence engine.",
   "type": "module",
   "main": "dist/index.js",
