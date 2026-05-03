@@ -1,4 +1,4 @@
-# @imprint/mcp-server
+# @byimprint/mcp-server
 
 Open-source MCP client for [byImprint](https://byimprint.com) creator-audience intelligence.
 
@@ -52,7 +52,7 @@ Seven composable tools for iterating across creators and niches inside an agent 
 ## Programmatic use
 
 ```ts
-import { imprintFetch, IMPRINT_TOOLS } from "@imprint/mcp-server";
+import { imprintFetch, IMPRINT_TOOLS } from "@byimprint/mcp-server";
 
 const tools = await imprintFetch("tools/list", {});
 console.log(tools);
@@ -70,10 +70,10 @@ For agent runtimes, prefer a real MCP client (`@modelcontextprotocol/sdk`) and p
 ## CLI
 
 ```bash
-npx @imprint/mcp-server install
-npx @imprint/mcp-server tools
-npx @imprint/mcp-server discover
-IMPRINT_API_KEY=imp_... npx @imprint/mcp-server ping
+npx @byimprint/mcp-server install
+npx @byimprint/mcp-server tools
+npx @byimprint/mcp-server discover
+IMPRINT_API_KEY=imp_... npx @byimprint/mcp-server ping
 ```
 
 ## Methodology

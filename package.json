@@ -1,5 +1,5 @@
 {
-  "name": "@imprint/mcp-server",
+  "name": "@byimprint/mcp-server",
   "version": "1.0.0",
   "description": "Open-source MCP client for byImprint creator-audience intelligence engine.",
   "type": "module",
